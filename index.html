@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <fieldset>
+    <legend>Registrationform</legend>
+     <h1 align="center">Sample Registration Form</h1>
+    <form><label for="fname">Enter User_name:</label>
+    <input type="text" id="fname" name="fname" placeholder="prasanth" required><br/><br/>
+    <input type="radio" id="male" name="gender" value="maleS"/>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female"/>
+    <label for="female">Female</label>
+
+   <br><br> <label for="mail">email:</label>
+    <input type="email" id="mail" name="mail" placeholder="prasanth@gmail.com" readonly>
+    <br><br>
+    <label for="number">Mobile_number:</label>
+    <input type="number" id="number" name="number" pattern="{5,10}"><br><br>
+    <label>DOB:</label>
+    <input type="date"/><br/><br/>
+    <label for="files">file:</label>
+    <input type="file" id="files" name="files" accept=".pdf" /><br/><br/>
+    <label >Enter_password:</label>
+    <input type="password" id="pword" name="pword" required><br><br>
+    <label for="add">Address:</label>
+    <input type="text" id="add" name="add" required><br><br>
+
+   <label>select-colour:</label> <input type="color"/><br/><br/>
+   <label>Feedback:</label>
+   <textarea aria-colspan="30" aria-rowspan="25" placeholder="write some suggestions"></textarea><br/><br/>
+
+     <input type="reset"><br/><br/>
+
+    <input  type="submit" value="register">
+    </form>
+</fieldset>
+</body>
+</html>
